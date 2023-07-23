@@ -25,15 +25,17 @@
       "package": "com.jomar.ramos.DentalClinic",
       "versionCode": 1,
       "permissions": [],
-      "publishingType": "apk" 
+      "publishingType": "apk"
     },
-    "platforms": ["android"],
+    "platforms": [
+      "android"
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "49bf9d51-7b34-4d0f-9225-0713a00f3355"
+        "projectId": "3917e482-46e7-4663-9f0f-f6527f87a189"
       }
     }
   }

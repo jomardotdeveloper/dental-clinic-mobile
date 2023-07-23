@@ -27,7 +27,7 @@ const WebviewScreen = () => {
     <View style={styles.container}>
       {Platform.OS === 'android' && <StatusBar translucent backgroundColor="transparent" />}
       <WebView
-        source={{ uri: 'dev.to' }}
+        source={{ uri: 'https://dres-dentalclinic.com/endmob' }}
         style={styles.webview}
       />
     </View>

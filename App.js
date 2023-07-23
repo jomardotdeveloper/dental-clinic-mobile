@@ -34,8 +34,8 @@ const App = () => {
   return (
     <WebView
       ref={webViewRef}
-      source={{ uri: 'dev.to' }}
-      style={{ flex: 1 }}
+      source={{ uri: 'https://dres-dentalclinic.com/endmob' }}
+      style={{ flex: 1, marginTop: 20 }}
       onShouldStartLoadWithRequest={onShouldStartLoadWithRequest}
     />
   );
