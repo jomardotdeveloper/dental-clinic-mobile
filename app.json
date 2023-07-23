@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "DentalClinic",
+    "slug": "DentalClinic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jomar.ramos.DentalClinic",
+      "versionCode": 1,
+      "permissions": [],
+      "publishingType": "apk" 
+    },
+    "platforms": ["android"],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "49bf9d51-7b34-4d0f-9225-0713a00f3355"
+      }
+    }
+  }
+}
